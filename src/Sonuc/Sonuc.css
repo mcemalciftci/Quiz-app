@@ -1,0 +1,224 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width:550px) {
+    .screen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient( to right ,  #1CB5F1 , blue);
+        min-height: 100vh;
+        
+    }
+    .container {
+    
+        width: 80%;
+        display: flex;       
+        background-image: linear-gradient(#1CB5F1 , rgb(58, 58, 168));
+        border-radius: 5px;
+        flex-direction: column;
+        box-shadow: 5px 5px 5px ;
+        align-items: center;
+        margin-bottom: 50px;
+        
+    }
+    .div-baslik{
+    
+        width: 60%;
+        display: flex;
+        height: 70px;
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center;
+        border: 1.5px solid  whitesmoke;
+        border-radius: 5px;
+        border-style:groove ;
+        
+    }
+    .baslik{
+        letter-spacing: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: whitesmoke;
+        opacity: 0.8;
+        font-size: 7vw;
+    }
+    .div-score {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        flex-direction: column;
+    }
+    .score{
+        font-weight: 900;
+        color: white;
+        font-size: 3vw;
+        font-family: Arial, Helvetica, sans-serif;
+        height: fit-content;
+        margin-top: 20px;
+    }
+    .score-info{
+        margin-top: 30px;
+        background-image: linear-gradient(to right, red, blue);
+        width: 90%;
+        height: 30%;
+        font-size: 4vw;
+        display: flex;
+        justify-content: center;
+        color: white;
+        border-radius: 4px;
+        opacity: 0.75;
+        
+    
+    }
+    .score-number{
+        background-color: #fff;
+        display: flex;
+        width: 50px;
+        height: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4vw;
+        font-weight: bold;
+        border-radius: 50%;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .button{
+        margin-top: 20px;
+        cursor: pointer;
+        width: 60%;
+        height: 40px;
+        font-size: 3vw;
+        border-radius: 5px;
+        background-color: cornflowerblue;
+        border: none;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .button:hover{
+        background-color: blue ;
+        color: white;
+    }
+}
+
+
+
+@media screen and (min-width:550px) { 
+    
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( to right ,  #1CB5F1 , blue);
+    min-width: 100vh;
+    height: 100vh;
+}
+
+.container {
+    
+    width: 45%;
+    display: flex;
+    position: fixed;
+    background-color: black;
+    background-image: linear-gradient(#1CB5F1 , rgb(58, 58, 168));
+    border-radius: 5px;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px ;
+    align-items: center; 
+    
+}
+
+.div-baslik{
+    
+    width: 65%;
+    display: flex;
+    height: 100px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid  whitesmoke;
+    border-radius: 5px;
+    border-style:groove ;
+    
+}
+.baslik{
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    opacity: 0.8;
+    font-size: 4vw;
+}
+.div-score {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
+}
+.score{
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    margin-top: 20px;
+}
+.score-info{
+    margin-top: 30px;
+    background-image: linear-gradient(to right, red, blue);
+    width: 95%;
+    height: 70px;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+    opacity: 0.75;
+    
+
+}
+.score-number{
+    background-color: #fff;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.button{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    border: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.button:hover{
+    background-color: blue ;
+    color: white;
+}
+}

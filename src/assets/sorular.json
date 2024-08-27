@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "soru": "İstanbul'u fetheden Osmanlı padişahı kimdir?",
+        "secenekler": ["Yavuz Sultan Selim", "Fatih Sultan Mehmet", "Kanuni Sultan Süleyman", "I. Murad"],
+        "cevap": "Fatih Sultan Mehmet"
+    },
+    {
+        "id": 2,
+        "soru": "Dünyanın en yüksek dağı hangisidir?",
+        "secenekler": ["K2", "Everest", "Kangchenjunga", "Lhotse"],
+        "cevap": "Everest"
+    },
+    {
+        "id": 3,
+        "soru": "Mona Lisa tablosunu hangi ünlü ressam yapmıştır?",
+        "secenekler": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        "cevap": "Leonardo da Vinci"
+    },
+    {
+        "id": 4,
+        "soru": "Çanakkale Savaşı hangi tarihte olmuştur?",
+        "secenekler": ["1915", "1923", "1939", "1945"],
+        "cevap": "1915"
+    },
+    {
+        "id": 5,
+        "soru": "Bir atomun çekirdeğinde hangi parçacıklar bulunur?",
+        "secenekler": ["Elektronlar", "Nötronlar", "Protonlar", "Nötronlar ve Protonlar"],
+        "cevap": "Nötronlar ve Protonlar"
+    },
+    {
+        "id": 6,
+        "soru": "Ayasofya hangi imparatorluk döneminde inşa edilmiştir?",
+        "secenekler": ["Osmanlı İmparatorluğu", "Roma İmparatorluğu", "Bizans İmparatorluğu", "Selçuklu İmparatorluğu"],
+        "cevap": "Bizans İmparatorluğu"
+    },
+    {
+        "id": 7,
+        "soru": "Dünyanın en büyük okyanusu hangisidir?",
+        "secenekler": ["Atlantik Okyanusu", "Hint Okyanusu", "Arktik Okyanusu", "Pasifik Okyanusu"],
+        "cevap": "Pasifik Okyanusu"
+    },
+    {
+        "id": 8,
+        "soru": "Einstein'ın ünlü denklemi nedir?",
+        "secenekler": ["E=mc^2", "F=ma", "V=IR", "pV=nRT"],
+        "cevap": "E=mc^2"
+    },
+    {
+        "id": 9,
+        "soru": "Dünyanın en küçük kıtası hangisidir?",
+        "secenekler": ["Avrupa", "Avustralya", "Antarktika", "Güney Amerika"],
+        "cevap": "Avustralya"
+    },
+    {
+        "id": 10,
+        "soru": "Titanik gemisi hangi yıl batmıştır?",
+        "secenekler": ["1912", "1920", "1898", "1945"],
+        "cevap": "1912"
+    },
+    {
+        "id": 11,
+        "soru": "İlk insanlı Ay yolculuğu hangi uzay aracı ile yapılmıştır?",
+        "secenekler": ["Apollo 11", "Voyager 1", "Sputnik", "Challenger"],
+        "cevap": "Apollo 11"
+    },
+    {
+        "id": 12,
+        "soru": "Machu Picchu antik şehri hangi ülkede bulunmaktadır?",
+        "secenekler": ["Meksika", "Peru", "Brezilya", "Şili"],
+        "cevap": "Peru"
+    },
+    {
+        "id": 13,
+        "soru": "Nobel Edebiyat Ödülü'nü kazanan ilk Türk yazar kimdir?",
+        "secenekler": ["Orhan Pamuk", "Yaşar Kemal", "Nazım Hikmet", "Elif Şafak"],
+        "cevap": "Orhan Pamuk"
+    },
+    {
+        "id": 14,
+        "soru": "Türkiye'nin en uzun nehri hangisidir?",
+        "secenekler": ["Kızılırmak", "Fırat", "Sakarya", "Dicle"],
+        "cevap": "Kızılırmak"
+    },
+    {
+        "id": 15,
+        "soru": "Hangi elementin kimyasal sembolü 'O' dur?",
+        "secenekler": ["Altın", "Oksijen", "Gümüş", "Kalsiyum"],
+        "cevap": "Oksijen"
+    },
+    {
+        "id": 16,
+        "soru": "Dünyanın en kalabalık ülkesi hangisidir?",
+        "secenekler": ["Hindistan", "Amerika Birleşik Devletleri", "Çin", "Endonezya"],
+        "cevap": "Çin"
+    },
+    {
+        "id": 17,
+        "soru": "Fransız İhtilali hangi yıl başlamıştır?",
+        "secenekler": ["1789", "1799", "1815", "1848"],
+        "cevap": "1789"
+    },
+    {
+        "id": 18,
+        "soru": "Romalıların kullandığı ana dil hangisidir?",
+        "secenekler": ["Yunanca", "Latince", "İtalyanca", "Fransızca"],
+        "cevap": "Latince"
+    },
+    {
+        "id": 19,
+        "soru": "Albert Einstein hangi alanla ilgilenmiştir?",
+        "secenekler": ["Kimya", "Matematik", "Fizik", "Biyoloji"],
+        "cevap": "Fizik"
+    },
+    {
+        "id": 20,
+        "soru": "İnka İmparatorluğu'nun başkenti neresidir?",
+        "secenekler": ["Cusco", "Lima", "Quito", "Bogotá"],
+        "cevap": "Cusco"
+    }
+]
+

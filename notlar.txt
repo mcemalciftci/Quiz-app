@@ -1,0 +1,31 @@
+
+const veri = [
+  {
+    borc:100,
+    alacak:300
+  },
+  {
+    borc:200,
+    alacak:150
+  },
+  {
+    borc:300,
+    alacak:450
+  }
+]
+const [toplam ,setToplam]=useState({
+  toplamborc:0,
+  toplamalacak:0
+})
+const toplamlar=veri.reduce((toplam,item)=>
+ {
+  toplam.toplamborc += item.borc
+  toplam.toplamalacak+=item.alacak
+  return toplam
+ },
+{"toplamborc":0 , "toplamalacak":0}
+)
+// const sonuc = {
+//   toplamborc:
+// }
+console.log(toplamlar)
